@@ -483,7 +483,7 @@ export default {
         .then(response => {
           // console.log(response.data)
           // this.oid = response.data
-          location.href="http://localhost/blog/public/api/pay/pay?token="+this.token+"&oid="+response.data+"&price="+this.price
+          location.href=this.url+"/api/pay/pay?token="+this.token+"&oid="+response.data+"&price="+this.price
           console.log(this.price)
         })
     }

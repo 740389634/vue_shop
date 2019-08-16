@@ -26,10 +26,10 @@ export default {
 
   mounted () {
     axios
-      .get('http://localhost/blog/public/show/show1')
+      .get('http://larvarl.fs1515.club/show/show1')
       .then(response => (this.arr = response.data))
     axios
-      .get('http://localhost/blog/public/show/goods_floor')
+      .get('http://larvarl.fs1515.club/show/goods_floor')
       .then(response => (this.bloor = response.data))
       .catch(function (error) { // 请求失败处理
         console.log(error);

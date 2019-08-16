@@ -5,7 +5,7 @@ import App from './App'
 import router from './router'
 
 Vue.config.productionTip = false
-Vue.prototype.url = 'http://localhost/blog/public'
+Vue.prototype.url = 'http://larvarl.fs1515.club'
 
 /* eslint-disable no-new */
 new Vue({
